@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  width: 80%;
+  height: 100px;
+  padding: 30px 70px;
+  background-color: rgb(146, 93, 93);
+  margin-top: 30px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  cursor: move;
+}
+
+.dragging {
+  opacity: 0.5;
+}
